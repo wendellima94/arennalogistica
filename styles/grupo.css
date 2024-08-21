@@ -1,0 +1,191 @@
+.section__sobre{
+    display: flex;
+    flex-direction: column;
+    padding: 3.5em 5em 2em 5em;
+    font-family: var(--fonte-principal);
+    background: var(--cor-cinza-claro);
+}
+
+.section__descricao{
+    font-size: 50px;
+    font-weight: 700;
+    padding-bottom: 1.3em;
+    color: var(--cor-tercearia);
+}
+
+.section__texto{
+    font-size: 23px;
+    font-weight: 600;
+    padding-bottom: 1em;
+}
+
+.section__grupo{
+    font-family: var(--fonte-principal);
+    background: var(--cor-tercearia);
+    color: var(--cor-branca);
+    padding: 3.5em 3em 1.5em 2.5em;
+}
+
+.section__conheca{
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--cor-cinza-claro);
+}
+
+.section__arenna{
+    display: flex;
+    align-items: center;
+    padding: 0 1em 0 1em;
+}
+
+.section__arenna_texto{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 2em 1em 2em 1em;
+    background-color: var(--cor-tercearia);
+    text-transform: uppercase;
+}
+
+.section__arenna_imagem{
+    height: 12vh;
+}
+
+.section__ultraeco{
+    display: flex;
+    align-items: center;
+    padding: 0 1em 0 1em;
+}
+
+.section__ultraeco_texto{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 2em 1.5em 2em 1.7em;
+    background-color: var(--cor-tercearia);
+    text-transform: uppercase;
+}
+
+.section__ultraeco_imagem{
+    height: 12vh;
+}
+
+.section__liberacao_imagem{
+    border-radius: 10px;
+    height: 30vh;
+}
+
+.section__barreira_imagem{
+    border-radius: 10px;
+    height: 30vh;
+    padding-top: 0.5em;
+}
+
+@media screen and (max-width: 768px) {
+
+    .section__grupo{
+        align-items: center;
+    }
+
+    .section__sobre{
+        padding: 3em 2em 3em 2em;
+    }
+
+    .section__descricao{
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .section__texto{
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .section__imagem{
+        height: 150px;
+    }   
+
+    .section__conheca{
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .section__arenna{
+        display: flex;
+        flex-direction: column;
+        padding-top: 2em;
+        text-align: center;
+        align-content: center;
+    }
+
+    .section__liberacao_imagem{
+        max-width: 100%;
+        padding-top: 1em;
+    }
+
+    .section__ultraeco{
+        display: flex;
+        flex-direction: column;
+        padding-top: 4em;
+        text-align: center;
+        align-content: center;
+    }
+
+    .section__arenna_imagem{
+        height: 9vh;
+    }
+
+    .section__ultraeco_imagem{
+        width: 70vw;
+        padding-bottom: 1.2em;
+    }
+
+    .section__barreira_imagem{
+        padding-top: 1em;
+    }
+
+    .section__arenna_texto{
+        font-size: 20px;
+        font-weight: 500;
+        padding: 2em 0 2em 0;
+        background-color: var(--cor-tercearia);
+        text-transform: uppercase;
+    }
+
+    .section__ultraeco_texto{
+        font-size: 20px;
+        font-weight: 500;
+        padding: 2em 0 2em 0;
+        background-color: var(--cor-tercearia);
+        text-transform: uppercase;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width: 1024px){
+    .section__arenna_imagem{
+        height: 10vh;
+    }
+
+    .section__ultraeco_imagem{
+        width: 30vh;
+        padding-bottom: 1.2em;
+    }
+
+    .section__arenna{
+        display: flex;
+        flex-direction: column;
+        padding-top: 3em;
+    }
+
+    .section__ultraeco{
+        display: flex;
+        flex-direction: column;
+        padding-top: 3em;
+    }
+
+    .section__arenna_texto{
+        text-align: center;
+    }
+
+    .section__ultraeco_texto{
+        text-align: center;
+    }
+}
